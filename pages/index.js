@@ -1,7 +1,12 @@
-export default function Home() {
+import IntroComponent from '../components/intro/intro'
+import LayoutComponent from '../components/layout/layout'
+
+export default function HomePage() {
   return (
-    <div>
-      <h2>hello world</h2>
-    </div>
+    <>
+      <LayoutComponent title={'Home Page'}>
+        <IntroComponent />
+      </LayoutComponent>
+    </>
   )
 }
