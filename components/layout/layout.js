@@ -6,7 +6,7 @@ function LayoutComponent({ title, children }) {
   return (
     <>
       <HeaderComponent title={title} />
-      <main className='font-mont'>{children}</main>
+      <main className='contents font-mont overflow-x-hidden'>{children}</main>
       <FooterComponent />
     </>
   )

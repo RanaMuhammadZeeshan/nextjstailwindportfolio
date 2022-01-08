@@ -39,7 +39,7 @@ function HeaderComponent({ title }) {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
 
-      <nav className='text-white font-mont fixed inset-0 z-50'>
+      <nav className='text-white font-mont fixed top-0 left-0 right-0 z-50'>
         <div
           className={`flex bg-themeColor justify-between items-center p-2 shadow-lg shadow-gray-900 ${
             showMenu !== 'hidden' && 'flex-col lg:flex-row'
