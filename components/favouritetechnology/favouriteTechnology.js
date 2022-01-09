@@ -40,7 +40,7 @@ function FavouriteTechnologyComponent({
           </p>
         </div>
       ) : (
-        <div className='text-center mx-5 lg:mx-32 shadow-xl shadow-favouriteTechnology -mt-20 bg-gray-50 rounded hover:bg-gray-400 hover:text-gray-100'>
+        <div className='text-center mx-5 lg:mx-32 shadow-xl shadow-yellow-500 -mt-20 bg-gray-50 rounded hover:bg-gray-400 hover:text-gray-100'>
           <div className='h-96'>
             <lottie-player
               src='https://assets8.lottiefiles.com/packages/lf20_hntzYU.json'

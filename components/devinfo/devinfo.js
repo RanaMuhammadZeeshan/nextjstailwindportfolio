@@ -7,7 +7,7 @@ function DevInfoComponent() {
         </h1>
 
         <div className='relative text-gray-800 font-bold'>
-          <div className='h-full'>
+          <div className='h-2/3'>
             <lottie-player
               src='https://assets1.lottiefiles.com/packages/lf20_dcatp5cr.json'
               background='transparent'
@@ -20,21 +20,21 @@ function DevInfoComponent() {
           <div className='absolute inset-0 flex flex-col  items-center justify-center'>
             <h1 className='text:sm sm:text-base  md:text-2xl'>
               Assalam O Alaikum, Hi, Hello ...
+              <hr />
+              <pre className='text-xs sm:text-sm md:text-base lg:text-lg my-5  font-semibold'>
+                {JSON.stringify(
+                  {
+                    name: 'Rana Muhammad Zeeshan',
+                    specie: 'Human',
+                    age: '25',
+                    gender: 'Male',
+                    country: 'Pakistan, Planet Earth',
+                  },
+                  null,
+                  2
+                )}
+              </pre>
             </h1>
-            <hr />
-            <pre className='text-xs sm:text-sm md:text-base lg:text-lg my-5  font-semibold'>
-              {JSON.stringify(
-                {
-                  name: 'Rana Muhammad Zeeshan',
-                  specie: 'Human',
-                  age: '25',
-                  gender: 'Male',
-                  country: 'Pakistan, Planet Earth',
-                },
-                null,
-                2
-              )}
-            </pre>
           </div>
         </div>
       </div>
